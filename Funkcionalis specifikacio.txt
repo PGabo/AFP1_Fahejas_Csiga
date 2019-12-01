@@ -31,3 +31,10 @@ K4	Bejelenkezés	A korábban már regisztrált felhasználók bejelentkezési fe
 K5	Rendezések	Különböző szempontok alapján lehet rendezni a rekordokat.
 K6	Küldés gomb	Erre kattintva lehet rendezni a korábbi beállítások szerint.
 K7	LINK gomb 	Az adott állatotthon weblapját/elérhetőségeit nyitja meg.
+
+7.Képernyőtervek
+Feltöltve
+8.Adatmodell
+
+9. Használati esetek
+A weblapot egy időben bármennyien használhatják a szerver korlátait tekintve persze. A webcímiet beírva lehet elérni asztali gépről, illetve bármilyen, böngészésre alkalmas hordozató eszközről.
