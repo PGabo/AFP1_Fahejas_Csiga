@@ -38,3 +38,6 @@ Feltöltve
 
 9. Használati esetek
 A weblapot egy időben bármennyien használhatják a szerver korlátait tekintve persze. A webcímiet beírva lehet elérni asztali gépről, illetve bármilyen, böngészésre alkalmas hordozató eszközről.
+
+10.Forgatókönyv
+Értelemszerűen, tetszőlegesen használható arra amire való az oldal. Megtudjuk keresni a tartózkodási helyünkhöz legközelebbi állatmentéssel foglalkozó csoportot, menhelyet.
