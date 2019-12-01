@@ -8,4 +8,6 @@ Számunkra fontos szerepet tölt be a magánéletünkben is az önkéntes munka,
 A megrendelő egy helyi állatotthon volt, velük konzultálva és együttműködve kezdtük el megvalósítani a letisztult, egyszerűen használható weblapot.
 Szerintük is nagy szükség lehet egy ilyen létrehozásában, bíznak benne hogy egyre nagyobb szerepet tölt majd be az emberek életében az állatok védelme is.
 
+3. Vágyálomrendszer
+A projekt célja, hogy egyszerűsítse a megtalált vagy éppen bajba jutott állatok megmentését illetve biztonságos menhelyre kerülését. Közös célunk a megrendelővel "Menő"-vé tenni az állatok védelmét!
 
