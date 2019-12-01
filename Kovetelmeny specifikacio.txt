@@ -11,3 +11,6 @@ Szerintük is nagy szükség lehet egy ilyen létrehozásában, bíznak benne ho
 3. Vágyálomrendszer
 A projekt célja, hogy egyszerűsítse a megtalált vagy éppen bajba jutott állatok megmentését illetve biztonságos menhelyre kerülését. Közös célunk a megrendelővel "Menő"-vé tenni az állatok védelmét!
 
+4. Jelenlegi üzleti folyamatok modellje
+Az állatvédelem az állatok oktalan kínzásának, pusztításának megakadályozása, megfelelő tartásuk, kíméletük biztosítása. Ma már társadalmilag elvárt tevékenység, amely társadalmi és hatósági
+intézkedésekkel és megfelelő propagandával valósul meg. Szerencsére egyre több az önkéntes alapon működő szervezet, akik segítik a hatóság munkáját.
