@@ -41,3 +41,12 @@ A weblapot egy időben bármennyien használhatják a szerver korlátait tekintv
 
 10.Forgatókönyv
 Értelemszerűen, tetszőlegesen használható arra amire való az oldal. Megtudjuk keresni a tartózkodási helyünkhöz legközelebbi állatmentéssel foglalkozó csoportot, menhelyet.
+
+11. Fogalomszótár
+A térkép ikon oszlopában: a markerre kattintva megnyílik térképen a pontos cím.
+A név oszlopban az adott alapítvány teljes neve látható.
+A cím értelemszerűen a címüket írja le.
+A Megye oszlopában a megye szerinti elhelyezkedés alapján tudunk szűrni.
+Elérhetőségeknél az email címek, illetve telefonszámokat találhatjuk meg.
+Az adó szabadon felajánlható 1%-át tartalmazó oszlopban pedig a számlaszámok találhatük.
+A weblink oszlopában pedig az egyesület weboldala nyílik meg.
