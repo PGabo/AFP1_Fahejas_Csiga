@@ -21,3 +21,13 @@ bánásmód érdekében, valamint meghatározza az állatok védelmének alapvet
 1998. évi XXVIII. törvény az állatok védelméről és kíméletéről
 2011. évi törvény az állatok védelméről és kíméletéről szóló 1998. évi XXVIII. törvény módosításáról
 1998. óta rengeteget erősödött ez a fajta tudat az emberekben, hogy jobban figyeljenek ezekre a dolgokra.
+
+6. Követelménylista
+ID	Név		Kifejtés
+K1	Logo		A felhasználó ha megnyomja lefrissíti az oldalt
+K2	Kezdőlap	Megnyomására a felhasználót a kezdőlapra irányítja az oldal.
+K3	Regisztráció	Regisztrációs felület jelenik meg.
+K4	Bejelenkezés	A korábban már regisztrált felhasználók bejelentkezési felülete.
+K5	Rendezések	Különböző szempontok alapján lehet rendezni a rekordokat.
+K6	Küldés gomb	Erre kattintva lehet rendezni a korábbi beállítások szerint.
+K7	LINK gomb 	Az adott állatotthon weblapját/elérhetőségeit nyitja meg.
