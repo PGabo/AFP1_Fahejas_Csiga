@@ -250,5 +250,10 @@ class Account
         return $sql->execute($data);
     }
 
+     public function InsertRecord($data){
+        $sql = $this->con->prepare("INSERT INTO allatmentok (Nev, Cim, Megye, Elerhetoseg, Ado, Weblink, madeby) VALUES (:name, :Cim, :megye,:elerhetoseg,:ado, :weblink, :id)");
+        return $sql->execute($data);
+    }
+
 
 }
