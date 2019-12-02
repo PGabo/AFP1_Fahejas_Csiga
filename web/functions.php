@@ -14,6 +14,11 @@ function exitAlert($alert)
             alert('$alert');
         </script>");
 }
+function passwordVerify($password, $password2){
+    if (!($password === $password2)) {
+        exitAlert('Nem egyeznek a jelszavak!');
+    }
+}
 function loginErrorMessage()
 {
     exitAlertRedirect('Helytelen felhasználónév vagy jelszó!', 'index.php');
