@@ -34,6 +34,8 @@ K7	LINK gomb 	Az adott állatotthon weblapját/elérhetőségeit nyitja meg.
 
 7.Képernyőtervek
 Feltöltve
+(index_kepernyoterv.png, login_kepernyoterv.png, register_kepernyoterv.png)
+
 8.Adatmodell
 
 9. Használati esetek
