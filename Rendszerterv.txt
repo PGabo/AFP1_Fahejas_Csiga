@@ -13,8 +13,11 @@ A helyi állatmenhellyel közösen kitalálva szeretnénk alkotni egy olyan foly
 4.Követelmények
 A jelenlegi szabványoknak teljes mértékben megfelel.
 
+5.Funkcionális terv
+Az oldal menüjéből tudunk navigálni a kezdőlapra, a regisztrációs felületre , bejelentkezési oldalra. Képernyőtervek elkészültek, feltöltve külön fájlként.
+
 6. Fizikai Környezet
-- A weboldal egyaránt használható minden fajta erre alkalmas eszközön, mivel 		teljes mértékben reszponzív.
+- A weboldal egyaránt használható minden fajta erre alkalmas eszközön, mivel teljes mértékben reszponzív.
 - Nincsennek megvásárolt komponenseink
 - Fejlesztő eszközök:
 	- Notepad++
