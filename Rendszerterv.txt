@@ -31,3 +31,9 @@ Szerepek
 8. Architekturális terv
 A rendszer folyamatosan bővíthető a felhasználók által. A bejelentkezési felületen megtudnak adni minden szükséges adatot, amivel belekerülnek az adatbázisba.
 Biztonsági funkciók közé tartozik, hogy van admin fiók, ami minden regisztrált felhasználó adatát láthatja, kezelheti, kivéve a jelszót, mivel az titkosítva szerepel. Minden felhasználó csak a saját adatait tudja módosítani, illetve törölni.
+
+9. Adatbázis terv 
+3 darab adatbázist használ az oldal amik a következőek:
+	-Tartalmazza magát az állatmentő egyesületeket
+	-Regisztrált felhasználókat tartalmazza
+	-Jelszó visszaállításához szükséges adatokat tárolja.
