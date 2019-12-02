@@ -98,5 +98,11 @@ class Account
         $this->pageIndex = intval($pagenumber);
     }
 
+	public function Activate($activation){
+        $sql=$this->con->prepare("UPDATE userregistration SET status=1 WHERE activationcode=:activation");
+        $sql->bindParam(':activation', $activation, PDO::PARAM_STR);
+        $sql->execute();
+        return $sql;
+    }
 
 }
