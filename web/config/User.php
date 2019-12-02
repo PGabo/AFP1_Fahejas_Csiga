@@ -218,4 +218,11 @@ class Account
         return $result;
     }
     
+    public function SelectUserIdByEmail($email)
+    {
+        $sql = $this->con->prepare("SELECT id FROM userregistration WHERE email = :email");
+        $sql->bindParam(':email', $email, PDO::PARAM_STR);
+        $sql->execute();
+        return $sql->fetchColumn();
+    }
 }
