@@ -105,12 +105,18 @@ class Account
         return $sql;
     }
 	
-	public function DeleteUser($id)
+	 public function DeleteUser($id)
     {
         $user_delete = $this->con->prepare("DELETE FROM userregistration WHERE id = :id;");
         $user_delete->bindParam(':id', $id, PDO::PARAM_INT);
         $user_delete->execute();
         return $user_delete;
+    }
+	  public function DeleteRecords($id)
+    {
+        $sql = $this->con->prepare("DELETE FROM allatmentok WHERE id = :id");
+        $sql->bindParam(':id', $id, PDO::PARAM_INT);
+        $sql->execute();
     }
 
 }
