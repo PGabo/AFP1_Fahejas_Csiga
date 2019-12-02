@@ -1,5 +1,6 @@
 1. Rendszer célja
-A weboldal olyanok számára készül akik szeretnének bejelenteni elveszett, bajba jutott, vagy kóborló állatokat, de nem tudják kihez kellene fordulni. Az oldalunkon könnyen megtalálhatja a lakhelyéhez legközelebbi ilyennel foglalkozó szervezetet. Mindenkinek lehetősége van új egyesületet regisztrálni, de akár magánemberként is elérhetővé teheti magát az ilyen esetekre.
+A weboldal olyanok számára készül akik szeretnének bejelenteni elveszett, bajba jutott, vagy kóborló állatokat, de nem tudják kihez kellene fordulni. Az oldalunkon könnyen megtalálhatja a lakhelyéhez legközelebbi ilyennel foglalkozó szervezetet.
+Mindenkinek lehetősége van új egyesületet regisztrálni, de akár magánemberként is elérhetővé teheti magát az ilyen esetekre.
 Ezzel is terjeszteni ezt az életfelfogást, fontosnak tartani az állatok megbecsülését.
 
 2. Projekt terv
@@ -37,3 +38,11 @@ Biztonsági funkciók közé tartozik, hogy van admin fiók, ami minden regisztr
 	-Tartalmazza magát az állatmentő egyesületeket
 	-Regisztrált felhasználókat tartalmazza
 	-Jelszó visszaállításához szükséges adatokat tárolja.
+
+10. Tesztterv
+A tesztelések célja a rendszer és komponensei funkcionalitásának teljes vizsgálata, ellenőrzése. A felhasználói felület megfelelően működjön. Regisztrálásnál email verifikálás megfelelő legyen.
+Alfa teszt:
+A teszt elsődleges célja, az eddig meglévő funkciók tesztelése.A tesztet a fejlesztők végzik. A teszt időtartama 4 nap.
+
+Beta teszt:
+Ezt a tesztet már a felhasználók végzik, időtartama egy hét. A tesztelés alatt a felhasználók visszajelzéseket küldhetnek, ha a weboldallal kapcsolatban valamilyen hiba lép fel. Ha valami hiba lenne a programban a fejlesztők kijavítják a lehető leghamarabb.
