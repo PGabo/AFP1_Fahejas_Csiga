@@ -208,5 +208,14 @@ class Account
         $sql->execute();
         return $sql->fetch();
     }
+
+    public function SelectPostById($postid)
+    {
+        $sql = $this->con->prepare("SELECT Nev, Cim, Megye, Elerhetoseg, Ado, Weblink FROM allatmentok WHERE id = :id");
+        $sql->bindParam(':id', $postid, PDO::PARAM_INT);
+        $sql->execute();
+        $result = $sql->fetch();
+        return $result;
+    }
     
 }
