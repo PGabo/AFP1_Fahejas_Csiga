@@ -1,3 +1,7 @@
 1. Rendszer célja
 A weboldal olyanok számára készül akik szeretnének bejelenteni elveszett, bajba jutott, vagy kóborló állatokat, de nem tudják kihez kellene fordulni. Az oldalunkon könnyen megtalálhatja a lakhelyéhez legközelebbi ilyennel foglalkozó szervezetet. Mindenkinek lehetősége van új egyesületet regisztrálni, de akár magánemberként is elérhetővé teheti magát az ilyen esetekre.
 Ezzel is terjeszteni ezt az életfelfogást, fontosnak tartani az állatok megbecsülését.
+
+2. Projekt terv
+Az a célunk, hogy a projekt összes résztvevője foglalkozzon a felmerülő problémák mindegyikével.
+Mérföldkövek: Elsőnek a dokumentáció elkészítését tartottuk a legfontosabbnak, majd ezután következett a képernyőtervek elkészítése, végül a feladatok megoldása közös erővel.
