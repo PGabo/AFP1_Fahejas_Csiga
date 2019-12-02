@@ -233,4 +233,12 @@ class Account
         return $sql->execute() && password_verify($password, $sql->fetchColumn());
     }
 
+    public function IsEmailInUse($email){
+        $sql = $this->con->prepare("SELECT * FROM userregistration WHERE email=:email LIMIT 1");
+        $sql->bindParam(':email', $email, PDO::PARAM_STR);
+        $sql->execute();
+
+        return $sql->rowCount() > 0;
+    }
+
 }
