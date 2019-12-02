@@ -183,4 +183,22 @@ class Account
         $sql->execute();
     }
 
+    public function UpdatePsw($password, $email, $token)
+    {
+        $sql = $this->con->prepare("DELETE FROM pwdreset WHERE pwdResetToken = :token AND pwdResetEmail = :email ");
+        $sql->bindParam(':token', $token, PDO::PARAM_STR);
+        $sql->bindParam(':email', $email, PDO::PARAM_STR);
+        $sql->execute();
+
+        if ($sql->rowCount() <= 0)
+            return false;
+
+        $query = $this->con->prepare("UPDATE userregistration SET password = :password WHERE email = :email");
+        $query->bindParam(':email', $email, PDO::PARAM_STR);
+        $query->bindParam(':password', $password, PDO::PARAM_STR);
+        $query->execute();
+
+        return $query->rowCount() > 0;
+    }
+
 }
