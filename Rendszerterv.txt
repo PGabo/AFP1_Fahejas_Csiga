@@ -9,4 +9,6 @@ Mérföldkövek: Elsőnek a dokumentáció elkészítését tartottuk a legfonto
 3. Üzleti folyamatok modellje 
 A helyi állatmenhellyel közösen kitalálva szeretnénk alkotni egy olyan folyamatosan bővülő adatbázist. Jótékonysági alapon működünk együtt.
 
+4.Követelmények
+A jelenlegi szabványoknak teljes mértékben megfelel.
 
