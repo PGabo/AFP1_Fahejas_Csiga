@@ -174,4 +174,13 @@ class Account
         $sql->bindParam(':expires', $expires, PDO::PARAM_STR);
         return $sql->execute() ? $token : false;
     }
+
+    public function RemoveAllExpired()
+    {
+        $time = date("U");
+        $sql = $this->con->prepare("DELETE FROM pwdreset WHERE pwdResetExpires < :time ");
+        $sql->bindParam(':time', $time, PDO::PARAM_INT);
+        $sql->execute();
+    }
+
 }
