@@ -201,4 +201,54 @@ class Account
         return $query->rowCount() > 0;
     }
 
+    public function SelectUserByEmail($email)
+    {
+        $sql = $this->con->prepare("SELECT id, name, email, status, admin FROM userregistration WHERE email = :email");
+        $sql->bindParam(':email', $email, PDO::PARAM_STR);
+        $sql->execute();
+        return $sql->fetch();
+    }
+
+    public function SelectPostById($postid)
+    {
+        $sql = $this->con->prepare("SELECT Nev, Cim, Megye, Elerhetoseg, Ado, Weblink FROM allatmentok WHERE id = :id");
+        $sql->bindParam(':id', $postid, PDO::PARAM_INT);
+        $sql->execute();
+        $result = $sql->fetch();
+        return $result;
+    }
+    
+    public function SelectUserIdByEmail($email)
+    {
+        $sql = $this->con->prepare("SELECT id FROM userregistration WHERE email = :email");
+        $sql->bindParam(':email', $email, PDO::PARAM_STR);
+        $sql->execute();
+        return $sql->fetchColumn();
+    }
+
+    public function CheckPassword($userid, $password)
+    {
+        $sql = $this->con->prepare("SELECT password FROM userregistration WHERE id = :userid");
+        $sql->bindParam(':userid', $userid, PDO::PARAM_INT);
+        return $sql->execute() && password_verify($password, $sql->fetchColumn());
+    }
+
+    public function IsEmailInUse($email){
+        $sql = $this->con->prepare("SELECT * FROM userregistration WHERE email=:email LIMIT 1");
+        $sql->bindParam(':email', $email, PDO::PARAM_STR);
+        $sql->execute();
+
+        return $sql->rowCount() > 0;
+    }
+
+    public function AddUser($data, $password){
+        $options = [
+            'cost' => 15
+        ];
+        $data['password'] = password_hash($password, PASSWORD_BCRYPT, $options);
+        $sql = $this->con->prepare("INSERT INTO userregistration (name, email, password, activationcode) VALUES (:name, :email, :password,:activationcode)");
+        return $sql->execute($data);
+    }
+
+
 }
