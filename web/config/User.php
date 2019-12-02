@@ -119,4 +119,14 @@ class Account
         $sql->execute();
     }
 
+    public function GetUserId($postid)
+    {
+        $query = $this->con->prepare("SELECT userregistration.id FROM userregistration INNER JOIN allatmentok ON allatmentok.madeby = userregistration.id WHERE userregistration.id = allatmentok.madeby AND allatmentok.id = :id");
+        $query->bindParam(':id', $postid, PDO::PARAM_INT);
+        $query->execute();
+        $result = $query->fetchColumn();
+        return $result;
+    }
+
+
 }
