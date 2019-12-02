@@ -17,6 +17,18 @@ SET time_zone = "+00:00";
 -- Adatbázis: `allatmentok_db`
 --
 
+DELIMITER $$
+--
+-- Eljárások
+--
+DROP PROCEDURE IF EXISTS `AddUser`$$
+CREATE DEFINER=`root`@`localhost` PROCEDURE `AddUser` (IN `name` VARCHAR(255), IN `email` VARCHAR(255), IN `password` VARCHAR(255), IN `activationcode` VARCHAR(255), IN `status` INT(11), IN `nev` VARCHAR(250), IN `varos` VARCHAR(250), IN `megye` VARCHAR(50), IN `elerhetoseg` VARCHAR(250), IN `ado` VARCHAR(500), IN `weblink` VARCHAR(300))  BEGIN
+	INSERT INTO userregistration(name, email, password, activationcode, status) VALUES(name, email, password, activationcode, status);
+    SET @last = LAST_INSERT_ID();
+	INSERT INTO allatmentok(Nev, Varos, Megye, Elerhetoseg, Ado, Weblink, madeby) VALUES(nev, varos, megye, elerhetoseg, ado, weblink, @last);
+END$$
+
+DELIMITER ;
 -- --------------------------------------------------------
 
 --
