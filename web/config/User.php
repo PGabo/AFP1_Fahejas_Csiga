@@ -253,7 +253,26 @@ class Account
      public function InsertRecord($data){
         $sql = $this->con->prepare("INSERT INTO allatmentok (Nev, Cim, Megye, Elerhetoseg, Ado, Weblink, madeby) VALUES (:name, :Cim, :megye,:elerhetoseg,:ado, :weblink, :id)");
         return $sql->execute($data);
+    }     
+
+    public function SendVerifyingEmail($data){
+        $to = $data['email'];
+        $subject = "=?UTF-8?B?" . base64_encode("E-mail megerősítés (Állatvédők)") . "?=";
+        $from = "=?UTF-8?B?" . base64_encode("Állatmentők") . "?=";
+        $headers = "MIME-Version: 1.0" . "\r\n";
+        $headers .= 'Content-type: text/html; charset=utf-8' . "\r\n";
+        $headers .= 'From: ' . $from . ' <mailing.tester.none@gmail.com>' . "\r\n";
+        $address = "172.16.24.192";
+        $ms = "<html>
+                </body>
+                    <div>
+                        <div>Kedves".$data['name']." !</div></br></br>";
+        $ms .= "<div style='padding-top:8px;'>Kérem kattinston az alábbi linkre az email megerősítése és aktiválása érdekében.</div>
+                            <div style='padding-top:10px;'><a href='http://$address/emailverify/email_verification.php?code=".$data['activationcode']."'>Katt ide</a>
+                            </div>
+                    </div>
+                </body>
+            </html>";
+        return mail($to, $subject, $ms, $headers);
     }
-
-
 }
