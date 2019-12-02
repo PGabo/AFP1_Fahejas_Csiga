@@ -83,3 +83,38 @@ INSERT INTO `pwdreset` (`pwdResetId`, `pwdResetEmail`, `pwdResetToken`, `pwdRese
 
 -- --------------------------------------------------------
 
+--
+-- Tábla szerkezet ehhez a táblához `userregistration`
+--
+
+DROP TABLE IF EXISTS `userregistration`;
+CREATE TABLE IF NOT EXISTS `userregistration` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) COLLATE utf8_hungarian_ci NOT NULL,
+  `email` varchar(255) COLLATE utf8_hungarian_ci NOT NULL,
+  `password` varchar(255) COLLATE utf8_hungarian_ci NOT NULL,
+  `activationcode` varchar(255) COLLATE utf8_hungarian_ci NOT NULL,
+  `status` int(11) NOT NULL DEFAULT '0',
+  `admin` tinyint(1) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COLLATE=utf8_hungarian_ci;
+
+--
+-- A tábla adatainak kiíratása `userregistration`
+--
+
+INSERT INTO `userregistration` (`id`, `name`, `email`, `password`, `activationcode`, `status`, `admin`) VALUES
+(1, 'admin', 'admin@admin.com', '$2y$15$N7qq/3tersYxsXDlu07sDO4djIqIJZAKfxSFQk6tBZ2pWeE2YMgti', '', 1, 1);
+
+
+--
+-- Megkötések a táblához `allatmentok`
+--
+ALTER TABLE `allatmentok`
+  ADD CONSTRAINT `allatmentok_ibfk_1` FOREIGN KEY (`madeby`) REFERENCES `userregistration` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
