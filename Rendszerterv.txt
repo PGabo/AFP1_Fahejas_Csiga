@@ -49,3 +49,9 @@ Ezt a tesztet már a felhasználók végzik, időtartama egy hét. A tesztelés 
 
 11. Telepítési terv
 A weboldalt nem kell telepíteni, szükséges hozzá egy böngésző és bármilyen erre alkalmas platformról elérhető.
+
+12.Karbantartási terv
+A weblap közepes mennyiségű karbantartást igényel, amely a következőkre bontható:
+- Ellenőrizni, hogy a jövőben kiadott böngésző verziókban hogyan fut a weblap, ha probléma lép fel, javítani
+- Meggyőződés arról, hogy a kiszolgáló szerver éppen fut, ha nem, akkor újraindítani
+- Idővel ellenőrizni a felvitt adatok helyességét, megfelelő formátumát.
