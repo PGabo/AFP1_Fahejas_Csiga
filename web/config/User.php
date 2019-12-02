@@ -146,4 +146,13 @@ class Account
         $sql->execute();
         return $sql;
     }
+
+    public function GetUserPost($id)
+    {
+        $sql = $this->con->prepare("SELECT Nev, Cim, Megye, Elerhetoseg, Ado, Weblink FROM allatmentok WHERE madeby = :id");
+        $sql->bindParam(':id', $id, PDO::PARAM_INT);
+        $sql->execute();
+        $result = $sql->fetch(PDO::FETCH_ASSOC);
+        return $result;
+    }
 }
