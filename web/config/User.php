@@ -201,4 +201,12 @@ class Account
         return $query->rowCount() > 0;
     }
 
+    public function SelectUserByEmail($email)
+    {
+        $sql = $this->con->prepare("SELECT id, name, email, status, admin FROM userregistration WHERE email = :email");
+        $sql->bindParam(':email', $email, PDO::PARAM_STR);
+        $sql->execute();
+        return $sql->fetch();
+    }
+    
 }
