@@ -5,3 +5,8 @@ Ezzel is terjeszteni ezt az életfelfogást, fontosnak tartani az állatok megbe
 2. Projekt terv
 Az a célunk, hogy a projekt összes résztvevője foglalkozzon a felmerülő problémák mindegyikével.
 Mérföldkövek: Elsőnek a dokumentáció elkészítését tartottuk a legfontosabbnak, majd ezután következett a képernyőtervek elkészítése, végül a feladatok megoldása közös erővel.
+
+3. Üzleti folyamatok modellje 
+A helyi állatmenhellyel közösen kitalálva szeretnénk alkotni egy olyan folyamatosan bővülő adatbázist. Jótékonysági alapon működünk együtt.
+
+
