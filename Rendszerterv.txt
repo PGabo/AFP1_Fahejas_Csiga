@@ -27,3 +27,7 @@ Szerepek
 - Admin: Teljeskörű adminisztrátor, mindent lát, mindent tud állítani. A projekthez tartozó összes részt.
 - Read Only: Csak olvasási joga van a projektben.
 - User: A webes szoftvert használó egyén.
+
+8. Architekturális terv
+A rendszer folyamatosan bővíthető a felhasználók által. A bejelentkezési felületen megtudnak adni minden szükséges adatot, amivel belekerülnek az adatbázisba. 
+Biztonsági funkciók közé tartozik, hogy van admin fiók, ami minden regisztrált felhasználó adatát láthatja, kezelheti, kivéve a jelszót, mivel az titkosítva szerepel. Minden felhasználó csak a saját adatait tudja módosítani, illetve törölni.
