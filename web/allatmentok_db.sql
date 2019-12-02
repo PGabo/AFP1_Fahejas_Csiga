@@ -61,4 +61,25 @@ INSERT INTO `allatmentok` (`id`, `Nev`, `Cim`, `Megye`, `Elerhetoseg`, `Ado`, `W
 
 -- --------------------------------------------------------
 
+--
+-- Tábla szerkezet ehhez a táblához `pwdreset`
+--
+
+DROP TABLE IF EXISTS `pwdreset`;
+CREATE TABLE IF NOT EXISTS `pwdreset` (
+  `pwdResetId` int(11) NOT NULL AUTO_INCREMENT,
+  `pwdResetEmail` text COLLATE utf8_hungarian_ci NOT NULL,
+  `pwdResetToken` longtext COLLATE utf8_hungarian_ci NOT NULL,
+  `pwdResetExpires` text COLLATE utf8_hungarian_ci NOT NULL,
+  PRIMARY KEY (`pwdResetId`)
+) ENGINE=MyISAM AUTO_INCREMENT=12 DEFAULT CHARSET=utf8 COLLATE=utf8_hungarian_ci;
+
+--
+-- A tábla adatainak kiíratása `pwdreset`
+--
+
+INSERT INTO `pwdreset` (`pwdResetId`, `pwdResetEmail`, `pwdResetToken`, `pwdResetExpires`) VALUES
+(11, 'admin@admin.com', '3033710dffffa493c5ea1abe193b9eb5', '1563539341');
+
+-- --------------------------------------------------------
 
