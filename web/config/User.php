@@ -241,4 +241,14 @@ class Account
         return $sql->rowCount() > 0;
     }
 
+    public function AddUser($data, $password){
+        $options = [
+            'cost' => 15
+        ];
+        $data['password'] = password_hash($password, PASSWORD_BCRYPT, $options);
+        $sql = $this->con->prepare("INSERT INTO userregistration (name, email, password, activationcode) VALUES (:name, :email, :password,:activationcode)");
+        return $sql->execute($data);
+    }
+
+
 }
