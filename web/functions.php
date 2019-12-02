@@ -7,3 +7,10 @@ function exitAlertRedirect($alert, $url)
             document.location='$url';
         </script>");
 }
+function exitAlert($alert)
+{
+    exit("
+        <script type='text/javascript'>
+            alert('$alert');
+        </script>");
+}
