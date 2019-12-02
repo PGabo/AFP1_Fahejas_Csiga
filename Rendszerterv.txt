@@ -6,7 +6,7 @@ Ezzel is terjeszteni ezt az életfelfogást, fontosnak tartani az állatok megbe
 Az a célunk, hogy a projekt összes résztvevője foglalkozzon a felmerülő problémák mindegyikével.
 Mérföldkövek: Elsőnek a dokumentáció elkészítését tartottuk a legfontosabbnak, majd ezután következett a képernyőtervek elkészítése, végül a feladatok megoldása közös erővel.
 
-3. Üzleti folyamatok modellje 
+3. Üzleti folyamatok modellje
 A helyi állatmenhellyel közösen kitalálva szeretnénk alkotni egy olyan folyamatosan bővülő adatbázist. Jótékonysági alapon működünk együtt.
 
 4.Követelmények
@@ -27,3 +27,7 @@ Szerepek
 - Admin: Teljeskörű adminisztrátor, mindent lát, mindent tud állítani. A projekthez tartozó összes részt.
 - Read Only: Csak olvasási joga van a projektben.
 - User: A webes szoftvert használó egyén.
+
+8. Architekturális terv
+A rendszer folyamatosan bővíthető a felhasználók által. A bejelentkezési felületen megtudnak adni minden szükséges adatot, amivel belekerülnek az adatbázisba.
+Biztonsági funkciók közé tartozik, hogy van admin fiók, ami minden regisztrált felhasználó adatát láthatja, kezelheti, kivéve a jelszót, mivel az titkosítva szerepel. Minden felhasználó csak a saját adatait tudja módosítani, illetve törölni.
