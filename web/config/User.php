@@ -128,5 +128,11 @@ class Account
         return $result;
     }
 
+    public function UpdateRecords($data, $prop)
+    {
+        $sql = $this->con->prepare("UPDATE allatmentok SET Nev = :nev, Cim = :Cim, Megye = :megye, Elerhetoseg = :elerhetoseg, Ado = :ado, Weblink = :weblink WHERE $prop = :id;");
+        return $sql->execute($data);
+    }
+
 
 }
