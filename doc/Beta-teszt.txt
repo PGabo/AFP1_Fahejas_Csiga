@@ -1,0 +1,2 @@
+Beta teszt
+Tesztelő neve;Dátum;Tesztelt funkció neve;Használt böngésző(E=edge|C=chrome|F=firefox);Hibátlan működés(I/N);Hiba leírása ha volt;Megjegyzés;
