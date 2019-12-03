@@ -1,0 +1,10 @@
+{
+  "address": "172.16.24.192",
+  "verify_email": {
+    "subject": "E-mail megerősítés",
+    "message": "<html></body><div><div>Kedves $name!</div></br><div style='padding-top:8px;'>Kérem kattinston az alábbi linkre az email megerősítése és aktiválása érdekében.</div><div style='padding-top:10px;'><a href='http://$address/emailverify/email_verification.php?code=$activationcode'>Katt ide</a></div></div></body></html>"
+  },
+  "from_email": "mailing.tester.none@gmail.com",
+  "from_name": "Állatmentők",
+  "headers": "MIME-Version: 1.0\r\nContent-type: text/html; charset=utf-'8'\r\nFrom: $from_name <$from_email>"
+}
