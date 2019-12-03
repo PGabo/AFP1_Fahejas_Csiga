@@ -1,0 +1,17 @@
+Alfa teszt
+Tesztelő;Észrevétel helye (hol?);Dátum;Prioritás (1-10);Leírás;Melléklet(opcionálsi);Böngésző;
+Besenyei Ferenc;Főoldal/Regisztráció2019/11/28;8;Nem pontozta ki a jelszót regisztrációnál;;Microsoft Edge 44.18362.449.0;
+Besenyei Ferenc;Főoldal/Regisztráció;2019/11/28;8;Nem pontozta ki a jelszót regisztrációnál;;Google Chrome Verzió: 78.0.3904.108;
+Besenyei Ferenc;Főoldal/Regisztráció;2019/11/28;8;Nem pontozta ki a jelszót regisztrációnál;;Mozilla Firefox Verzió: 71.0;
+Besenyei Ferenc;Főoldal/Belépés;2019/11/28;8;Nem pontozta ki a jelszót belépésnél;;Microsoft Edge 44.18362.449.0;
+Besenyei Ferenc;Főoldal/Belépés;2019/11/28;8;Nem pontozta ki a jelszót belépésnél;;Google Chrome Verzió: 78.0.3904.108;
+Besenyei Ferenc;Főoldal/Belépés;2019/11/28;8;Nem pontozta ki a jelszót belépésnél;;Mozilla Firefox Verzió: 71.0;;			
+Pap Gábor;Főoldal;2019/11/28;10;Nem működik az e-mail visszaigazolás;;Microsoft Edge 44.18362.449.0;
+Pap Gábor;Főoldal;2019/11/28;10;Nem működik az e-mail visszaigazolás;;Google Chrome Verzió: 78.0.3904.108;
+Pap Gábor;Főoldal;2019/11/28;10;Nem működik az e-mail visszaigazolás;;Mozilla Firefox Verzió: 71.0;
+Pap Gábor;Főoldal;2019/11/28;10;Nem működik megfelelően a felhasználó törlés;;Microsoft Edge 44.18362.449.0;
+Pap Gábor;Főoldal;2019/11/28;10;Nem működik megfelelően a felhasználó törlés;;Google Chrome Verzió: 78.0.3904.108;
+Pap Gábor;Főoldal;2019/11/28;10;Nem működik megfelelően a felhasználó törlés;;Mozilla Firefox Verzió: 71.0;
+Juhász Bálint;Főoldal;2019/11/28;10;Adatmódosítás után a régi adat jelenik meg;;Google Chrome Verzió: 78.0.3904.108;
+Juhász Bálint;Főoldal;2019/11/28;10;Adatmódosítás után a régi adat jelenik meg;Microsoft Edge 44.18362.449.0;
+Juhász Bálint;Főoldal;2019/11/28;10;Adatmódosítás után a régi adat jelenik meg;;Mozilla Firefox Verzió: 71.0;
