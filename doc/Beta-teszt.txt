@@ -36,3 +36,12 @@ Tóth Tamás;2019/12/03;Törlés;ECF;I;;;
 Tóth Tamás;2019/12/03;Rendezés;ECF;I;;;
 Tóth Tamás;2019/12/03;Keresés;ECF;I;;;
 Tóth Tamás;2019/12/03;Lapozás;ECF;I;;;
+
+Juhász Bálint;2019/12/03;Regisztracio;ECF;I;;;
+Juhász Bálint;2019/12/03;Bejelentkezés;ECF;I;;;
+Juhász Bálint;2019/12/03;Hozzáadás;ECF;I;;;
+Juhász Bálint;2019/12/03;Módosítás;ECF;I;;;
+Juhász Bálint;2019/12/03;Törlés;ECF;I;;;
+Juhász Bálint;2019/12/03;Rendezés;ECF;I;;;
+Juhász Bálint;2019/12/03;Keresés;ECF;I;;;
+Juhász Bálint;2019/12/03;Lapozás;ECF;I;;;
