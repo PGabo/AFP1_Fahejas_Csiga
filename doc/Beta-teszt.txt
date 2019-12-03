@@ -45,3 +45,12 @@ Juhász Bálint;2019/12/03;Törlés;ECF;I;;;
 Juhász Bálint;2019/12/03;Rendezés;ECF;I;;;
 Juhász Bálint;2019/12/03;Keresés;ECF;I;;;
 Juhász Bálint;2019/12/03;Lapozás;ECF;I;;;
+
+Pap Gábor;2019/12/03;Regisztracio;ECF;I;;;
+Pap Gábor;2019/12/03;Bejelentkezés;ECF;I;;;
+Pap Gábor;2019/12/03;Hozzáadás;ECF;I;;;
+Pap Gábor;2019/12/03;Módosítás;ECF;I;;;
+Pap Gábor;2019/12/03;Törlés;ECF;I;;;
+Pap Gábor;2019/12/03;Rendezés;ECF;I;;;
+Pap Gábor;2019/12/03;Keresés;ECF;I;;;
+Pap Gábor;2019/12/03;Lapozás;ECF;I;;;
