@@ -1,2 +1,11 @@
 Beta teszt
 Tesztelő neve;Dátum;Tesztelt funkció neve;Használt böngésző(E=edge|C=chrome|F=firefox);Hibátlan működés(I/N);Hiba leírása ha volt;Megjegyzés;
+
+Besenyei Ferenc;2019/12/03;Regisztracio;ECF;I;;Visszaigazolo E-mail is tokeletesen mukodott.Jelszó pontozása javítva;
+Besenyei Ferenc;2019/12/03;Bejelentkezés;ECF;I;;Jelszó pontozása javítva;
+Besenyei Ferenc;2019/12/03;Hozzáadás;ECF;I;;;
+Besenyei Ferenc;2019/12/03;Módosítás;ECF;I;;;
+Besenyei Ferenc;2019/12/03;Törlés;ECF;I;;;
+Besenyei Ferenc;2019/12/03;Rendezés;ECF;I;;;
+Besenyei Ferenc;2019/12/03;Keresés;ECF;I;;;
+Besenyei Ferenc;2019/12/03;Lapozás;ECF;I;;;
