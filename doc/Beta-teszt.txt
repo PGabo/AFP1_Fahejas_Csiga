@@ -9,3 +9,12 @@ Besenyei Ferenc;2019/12/03;Törlés;ECF;I;;;
 Besenyei Ferenc;2019/12/03;Rendezés;ECF;I;;;
 Besenyei Ferenc;2019/12/03;Keresés;ECF;I;;;
 Besenyei Ferenc;2019/12/03;Lapozás;ECF;I;;;
+
+Váczi Krisztina;2019/12/03;Regisztracio;ECF;I;;;
+Váczi Krisztina;2019/12/03;Bejelentkezés;ECF;I;;;
+Váczi Krisztina;2019/12/03;Hozzáadás;ECF;I;;;
+Váczi Krisztina;2019/12/03;Módosítás;ECF;I;;;
+Váczi Krisztina;2019/12/03;Törlés;ECF;I;;;
+Váczi Krisztina;2019/12/03;Rendezés;ECF;I;;;
+Váczi Krisztina;2019/12/03;Keresés;ECF;I;;;
+Váczi Krisztina;2019/12/03;Lapozás;ECF;I;;;
