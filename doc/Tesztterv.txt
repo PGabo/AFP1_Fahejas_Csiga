@@ -1,0 +1,26 @@
+Tesztterv
+---------
+
+Funkcionális teszt
+------------------
+
+Bevezetés
+---------
+A Rendszer Funkcionális Teszt (RFT) a rendszer egészének – beleértve a környezeti eljárásokat is – alapos tesztelés előre definiált tesztadatokkal, ahol lehetséges tesztelő eszközökkel kell végezni.
+A tesztelések célja a rendszer és komponensei funkcionalitásának teljes körű vizsgálata, ellenőrzése, a rendszer által megvalósított üzleti szolgáltatások verifikálása.
+
+Tesztelési eljárások
+--------------------
+Teszteset azonosító: 001 – Alfa teszt
+  - Időtartam: 2 nap
+  - Teszt kezdete: 2019/11/28
+  - Teszt befejezése: 2019/11/29
+  - A teszt elsődleges célja: az eddig meglévő funkcióknak a különböző böngészőkkel való kompatibilitásának tesztelése. A tesztet a fejlesztők végzik.
+  - Az eljárás sikeres, ha különböző böngészőkben is megfelelően működnek a különböző funkciók.
+
+Tesztelés azonosító: 002 – Béta teszt
+  - Időtartam: 3 nap
+  - Teszt kezdete: 2019/12/01
+  - Teszt befejezése: 2019/12/03
+  - A teszt elsődleges célja: Minden meglévő funkció megfelelő működésének ellenőrzése. A tesztet a fejlesztők és harmadik személyek végzik.
+  - Az eljárás sikeres, ha minden funkció megfelelően működik a harmadik személyek által tesztelve is.
