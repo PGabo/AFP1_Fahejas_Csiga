@@ -9,3 +9,6 @@ Tesztelendő elemek: 	-Regisztráció
 			-Rendezés
 			-Keresés
 			-Lapozás
+
+Példa:
+Pap Gábor;2019/12/03;Regisztracio;ECF;I;;;

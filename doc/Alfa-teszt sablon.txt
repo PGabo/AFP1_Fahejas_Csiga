@@ -1,0 +1,11 @@
+Alfa teszt
+Tesztelő;Észrevétel helye (hol?);Dátum;Prioritás (1-10);Leírás;Melléklet(opcionálsi);Böngésző;
+
+Tesztelendő elemek:	-Főoldal/Regisztráció
+			-Belépés
+			-Email visszaigazolása
+			-Felhasználó törlés
+			-Adatmódosítás
+			
+Példa: 
+Pap Gábor;Főoldal;2019/11/28;10;Nem működik az e-mail visszaigazolás;;Mozilla Firefox Verzió: 71.0;
